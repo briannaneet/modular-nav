@@ -26,6 +26,10 @@ header {
   background-color: #e2e2e2;
 }
 
+header ul {
+  padding-left: 0;
+}
+
 header nav li {
   display: inline-block;
 }
@@ -35,7 +39,12 @@ header nav li a {
   color: #0074d9;
 }
 
-a:hover {
+.current {
   color: #fff;
   background-color: #0074d9;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
 }
